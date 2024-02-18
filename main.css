@@ -1,0 +1,62 @@
+header, #games, .nav-link, .card {
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+}
+
+.section-title {
+    color: darkgreen;
+}
+
+.section-title-white {
+    color: rgb(255, 255, 255);
+}
+
+#cabecalho .nav .nav-link.active { /*!important - forçar a regra do botão que vai ficar ativo*/
+    background-color: rgb(7, 219, 0) !important;
+    color: darkgreen !important;
+}
+
+#cabecalho .nav .nav-link:hover,
+.nav-games .nav-link:hover,
+.nav-games .nav-link.active:hover,
+.nav-games .nav-link.active {
+    background-color: rgb(7, 219, 0);
+    color: darkgreen;
+}
+
+.btn {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    color:  rgb(7, 219, 0);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover; /* Isso garantirá que a imagem cubra toda a área disponível sem distorção */
+}
+
+.card {
+    transition: transform .2s; /* animação suave */
+}
+
+.card:hover {
+    transform: scale(1.1); /* aumenta o tamanho do card */
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color:  darkgreen;
+}
+
+@media (max-width: 767px) { /* ajustes de resposividade para celulares */
+    
+}
